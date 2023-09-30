@@ -25,7 +25,6 @@ public class Main {
         System.out.printf("x*y = %d \n", e);
         System.out.printf("x/y = %.2f \n", f1);
 
-
         calc.close();
     }
 }
