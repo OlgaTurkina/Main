@@ -18,12 +18,15 @@ public class Main {
         int d = 5-y;
         int e = x*y;
         double f1 = (double)x / y;
-        System.out.printf("x+y = %d \n",a);
+
+        System.out.printf("x+y = %d \n", a);
         System.out.printf("5+x = %d \n", b);
         System.out.printf("x-y = %d \n", c);
         System.out.printf("5-y = %d \n", d);
         System.out.printf("x*y = %d \n", e);
         System.out.printf("x/y = %.2f \n", f1);
+        System.out.printf("5+x = %d \n", b);
+
 
         calc.close();
     }
