@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello! It`s a calc");
         Scanner calc = new Scanner(System.in);
         System.out.println("Input x - first number");
         int x = calc.nextInt();
